@@ -3,7 +3,7 @@
  */
 
 package com.mycompany.multiplicarnumeros;
-
+import java.util.Scanner;
 /**
  *
  * @author Usuario
@@ -11,6 +11,12 @@ package com.mycompany.multiplicarnumeros;
 public class MultiplicarNumeros {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+    Scanner lector = new Scanner (System.in);
+    System.out.println("ingrse el primer numero q desea multiplicar");
+    double n = lector.nextDouble();
+    System.out.println("ingrse el segundo numero q desea multiplicar");
+     double n1 = lector.nextDouble();
+ 
+    ouig ASDEfvewarujhb
     }
 }
