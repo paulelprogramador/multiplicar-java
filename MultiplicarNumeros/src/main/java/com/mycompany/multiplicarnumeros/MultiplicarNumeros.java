@@ -16,7 +16,8 @@ public class MultiplicarNumeros {
     double n = lector.nextDouble();
     System.out.println("ingrse el segundo numero q desea multiplicar");
      double n1 = lector.nextDouble();
- 
+ double n3 = n *n1 ;
+ System.out.println(n3);
 
     }
 }
